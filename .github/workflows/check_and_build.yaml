@@ -1,14 +1,14 @@
 name: Check & Build
 
 on:
-  push:
-    branches:
-      - master
-      - "release-[0-9].[0-9]*"
-  pull_request:
-    branches:
-      - master
-      - "release-[0-9].[0-9]*"
+  #push:
+  #  branches:
+  #    - master
+  #    - "release-[0-9].[0-9]*"
+  #pull_request:
+  #  branches:
+  #    - master
+  #    - "release-[0-9].[0-9]*"
 
 # See: https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#concurrency.
 concurrency:
